@@ -15,9 +15,9 @@ namespace OOP_Labb_1
             Circle C2 = new Circle(0);
             Console.WriteLine("Area av Cirkel 2: {0}",C2.GetArea(6));
             Console.WriteLine();
-            Circle C3 = new Circle(0);
 
-            Console.Write("Skriv in en Radie för att räkna ut en cirkels Omkrets: ");
+            Circle C3 = new Circle(0);
+            Console.Write("Skriv in en radie av en cirkel för att räkna ut cirkelns omkrets: ");
             Console.WriteLine("Omkretsen av Cirkel 3 är : {0}",C3.GetCircumference(float.Parse(Console.ReadLine())));
 
             Console.ReadKey();
