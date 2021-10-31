@@ -17,7 +17,7 @@ namespace OOP_Labb_1
         public float GetArea(float Radie)
         {
             float CalcArea = Radie * Radie * Pi;
-            int Calc = Convert.ToInt32(CalcArea);
+            //int Calc = Convert.ToInt32(CalcArea);
             //return Calc;
             return CalcArea;
         }

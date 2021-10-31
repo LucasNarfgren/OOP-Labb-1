@@ -19,7 +19,18 @@ namespace OOP_Labb_1
             Circle C3 = new Circle(0);
             Console.Write("Skriv in en radie av en cirkel för att räkna ut cirkelns omkrets: ");
             Console.WriteLine("Omkretsen av Cirkel 3 är : {0}",C3.GetCircumference(float.Parse(Console.ReadLine())));
+            Console.ReadKey();
 
+            Console.Clear();
+
+            Console.WriteLine("Räkna ut Arean av en triangel");
+            Console.Write("Skriv in höjden på triangeln: ");
+            float height = float.Parse(Console.ReadLine());
+            Console.Write("Skriv in basen på triangeln: ");
+            float width = float.Parse(Console.ReadLine());
+            Triangle T1 = new Triangle(height, width);
+            Console.WriteLine("Arean av triangeln är = {0}", T1.GetArea());
+            
             Console.ReadKey();
         }
     }
